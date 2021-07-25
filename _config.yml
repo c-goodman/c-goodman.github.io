@@ -76,3 +76,7 @@ topics:
   # - name:
   #   web_url:
   #   image_url:
+
+other-topics:
+  - name: youtube
+    web_url: https://youtube.com
