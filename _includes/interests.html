@@ -7,12 +7,13 @@
     </div>
   {% endfor %}
 </div>
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Other Interests</h2>
+
+<h3 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Other Interests</h3>
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">These are some other things that I am interested in.</p>
 <div class="d-flex flex-wrap gutter-condensed mb-4">
-  {% for topics in site.topics %}
+  {% for other-topics in site.other-topics %}
     <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-      {% include topic-card.html %}
+      {% include other-topic-card.html %}
     </div>
   {% endfor %}
 </div>

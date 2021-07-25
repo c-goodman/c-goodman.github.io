@@ -78,5 +78,14 @@ topics:
   #   image_url:
 
 other-topics:
-  - name: youtube
-    web_url: https://youtube.com
+  - oname: Git
+    oweb_url: https://github.com/topics/git
+    oimage_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png
+
+  - oname: Awesome Lists
+    oweb_url: https://github.com/topics/awesome
+    oimage_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/awesome/awesome.png
+
+  - oname: Ubuntu
+    oweb_url: https://github.com/topics/ubuntu
+    oimage_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ubuntu/ubuntu.png
